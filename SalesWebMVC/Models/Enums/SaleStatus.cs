@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace SalesWebMVC.Models.Enums
+﻿namespace SalesWebMVC.Models.Enums
 {
-    enum SaleStatus : int
+
+    public enum SaleStatus : int
     {
         Pending = 0,
         Billed = 1,
