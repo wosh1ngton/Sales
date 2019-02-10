@@ -17,6 +17,7 @@ namespace SalesWebMVC.Data
         }
         public void Seed()
         {
+           
             if(_context.Department.Any() || 
                 _context.Seller.Any() ||
                 _context.SalesRecord.Any())
@@ -77,7 +78,7 @@ namespace SalesWebMVC.Data
             );
 
             _context.SaveChanges();
-
+          
         }
     }
 }
